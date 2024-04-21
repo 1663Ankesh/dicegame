@@ -1,0 +1,60 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 5px dashed red;
+  max-width: 800px;
+  border-radius: 20px;
+  background-color: yellow;
+  margin-top: 10px;
+}
+.heading {
+  background-color: rgb(46, 206, 54);
+  color: whitesmoke;
+  font-size: 50px;
+  border-radius: 10px;
+  padding: 0px 20px 5px;
+  margin-top: 5px;
+}
+.playgamebutton button {
+  border: none;
+  background-color: blue;
+  color: whitesmoke;
+  font-size: 50px;
+  border-radius: 10px;
+  padding: 0px 20px 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.playgamebutton :hover {
+  background-color: hotpink;
+  transition: 0.2s;
+}
+.playgamebutton :active {
+  background-color: goldenrod;
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 768px) {
+  .game {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
+  .heading,
+  .playgamebutton button {
+    font-size: 30px;
+  }
+  .pic img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heading,
+  .playgamebutton button {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+}
