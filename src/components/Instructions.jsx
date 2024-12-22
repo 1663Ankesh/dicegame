@@ -14,7 +14,7 @@ const Instructions = () => {
             <li>
               If you got the same number, your score will be incremented by that
             </li>
-            <li>If not, your score will be decremented by 2</li>
+            <li>If not, your score will be decremented by 1</li>
           </ul>
         </li>
       </ul>

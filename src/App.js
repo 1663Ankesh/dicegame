@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import StartGame from "./StartGame";
-import GamingPage from "./GamingPage";
+import StartGame from "./components/StartGame";
+import GamingPage from "./components/GamingPage";
 
 const App = () => {
   let [isgaming, setgaming] = useState(false);

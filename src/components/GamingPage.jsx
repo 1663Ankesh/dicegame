@@ -26,7 +26,7 @@ const GamingPage = ({ onclick }) => {
       if (s === num) {
         setscore(score + s);
       } else {
-        setscore((score -= 2));
+        setscore((score -= 1));
       }
       setdice(d[s - 1]);
       setnum();
